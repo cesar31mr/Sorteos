@@ -7,6 +7,7 @@
                 Dim Superior As Integer = CInt(txtSuperior.Text)
                 Dim historico As String = String.Empty
 
+
                 historico = txtHistorial.Text
                 txtResultado.Text = Convert.ToString(nmbAleatorio.Next(inferior, Superior + 1))
 
